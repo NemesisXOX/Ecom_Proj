@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    position: relative;
+}
+
+.logo{
+    margin: 5px 0 0 5px;
+}
+
+.options{
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 3px;
+}
+
+.option{
+    font-weight: bold;
+    margin-right: 15px;
+    text-decoration: none;
+}

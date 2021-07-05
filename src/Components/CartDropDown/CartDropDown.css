@@ -1,0 +1,24 @@
+.CartDropDown{
+    height: 400px;
+    width: 250px;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    top: 50px;
+    background:white;
+    border: black solid 3px;
+}
+
+.CartItems{
+    margin: 5px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    overflow-y:scroll;
+}
+
+.SubmitButton{
+    margin-top: auto;
+}
